@@ -1,0 +1,5 @@
+all: hello     
+hello: helloworld.c
+	gcc helloworld.c -o helloworld
+clean: 
+	rm *.o hello
